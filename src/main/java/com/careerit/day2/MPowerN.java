@@ -4,6 +4,7 @@ import java.sql.SQLOutput;
 
 public class MPowerN {
     public static void main(String[] args) {
+        // a
         int m = 3;
         int n = 4;
         double result =  Math.pow(m,n); //method calling
