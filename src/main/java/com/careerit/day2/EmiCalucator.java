@@ -14,8 +14,8 @@ public class EmiCalucator {
         System.out.println("enter the duration in months");
         double n = sc.nextDouble();
 
-        double r = ri / 12 / 100;
-        double emi = P * r * (Math.pow(1 + r, n) / (Math.pow(1 + r, n) - 1));
+        double r = ri / 12 / 100; // ri is rate of interest
+        double emi = P * r * (Math.pow(1 + r, n) / (Math.pow(1 + r, n) - 1)); 
 
         double totalAmount = emi * n;
         double totalInterest = totalAmount - P;
